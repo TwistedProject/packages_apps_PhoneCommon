@@ -69,8 +69,8 @@
         android:orientation="horizontal">
 
         <ImageButton android:id="@+id/dialpad_overflow"
-            android:background="@drawable/btn_dialpad_key"
             android:src="@drawable/ic_overflow_menu"
+            android:background="@*android:color/transparent"
             android:tint="?attr/dialpad_icon_tint"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -104,7 +104,7 @@
 
         <ImageButton
             android:id="@+id/deleteButton"
-            android:background="@drawable/btn_dialpad_key"
+            android:background="@*android:color/transparent"
             android:tint="?attr/dialpad_icon_tint"
             android:paddingLeft="@dimen/dialpad_digits_padding"
             android:paddingRight="@dimen/dialpad_digits_padding"
